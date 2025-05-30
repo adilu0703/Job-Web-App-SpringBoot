@@ -4,7 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1bcb0d58-20dc-473a-bd30-9540b1957cba" name="Changes" comment="Reapply &quot;First Job App Committtr&quot;&#10;&#10;This reverts commit a6e0c4a5ca22241dfdf03b36aef1a71442634a18." />
+    <list default="true" id="1bcb0d58-20dc-473a-bd30-9540b1957cba" name="Changes" comment="Reapply &quot;First Job App Committtr&quot;&#10;&#10;This reverts commit a6e0c4a5ca22241dfdf03b36aef1a71442634a18.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/embarkx/firstjobapp/company/Company.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/embarkx/firstjobapp/company/CompanyController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/embarkx/firstjobapp/company/CompanyRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/embarkx/firstjobapp/company/CompanyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/embarkx/firstjobapp/company/impl/CompanyServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/embarkx/firstjobapp/job/jobRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/embarkx/firstjobapp/FirstjobappApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/embarkx/firstjobapp/FirstjobappApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/embarkx/firstjobapp/job/Job.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/embarkx/firstjobapp/job/Job.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/embarkx/firstjobapp/job/impl/jobServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/embarkx/firstjobapp/job/impl/jobServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/embarkx/firstjobapp/job/jobController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/embarkx/firstjobapp/job/jobController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/embarkx/firstjobapp/job/jobService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/embarkx/firstjobapp/job/jobService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/embarkx/firstjobapp/job/Job.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/embarkx/firstjobapp/job/Job.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/embarkx/firstjobapp/job/impl/jobServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/embarkx/firstjobapp/job/impl/jobServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/embarkx/firstjobapp/job/jobController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/embarkx/firstjobapp/job/jobController.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +32,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -34,7 +54,7 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/adilu0703/Job-Web-App-SpringBoot.git&quot;,
+    &quot;url&quot;: &quot;https://github.com/adilu0703/Job-Web-App-SpringBoot&quot;,
     &quot;accountId&quot;: &quot;03b97949-4b92-4684-85f2-a4ecd161a3d9&quot;
   }
 }</component>
@@ -45,10 +65,14 @@
       </MavenGeneralSettings>
     </option>
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
   <component name="ProjectId" id="2xOB7B3uQerb5WnOwQWX45gyWwE" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -125,13 +149,55 @@
       <option name="project" value="LOCAL" />
       <updated>1747982071892</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Reapply &quot;First Job App Committtr&quot;&#10;&#10;This reverts commit a6e0c4a5ca22241dfdf03b36aef1a71442634a18.">
+      <option name="closed" value="true" />
+      <created>1747982291033</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1747982291033</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Revert &quot;First Job App Commit&quot;&#10;&#10;This reverts commit 644629310a3c5395fb7ee1ec58ccd97d3dee2191." />
     <MESSAGE value="Reapply &quot;First Job App Commit&quot;&#10;&#10;This reverts commit a6e0c4a5ca22241dfdf03b36aef1a71442634a18." />
     <MESSAGE value="Reapply &quot;First Job App Committt&quot;&#10;&#10;This reverts commit a6e0c4a5ca22241dfdf03b36aef1a71442634a18." />
-    <option name="LAST_COMMIT_MESSAGE" value="Reapply &quot;First Job App Committt&quot;&#10;&#10;This reverts commit a6e0c4a5ca22241dfdf03b36aef1a71442634a18." />
+    <MESSAGE value="Reapply &quot;First Job App Committtr&quot;&#10;&#10;This reverts commit a6e0c4a5ca22241dfdf03b36aef1a71442634a18." />
+    <option name="LAST_COMMIT_MESSAGE" value="Reapply &quot;First Job App Committtr&quot;&#10;&#10;This reverts commit a6e0c4a5ca22241dfdf03b36aef1a71442634a18." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/embarkx/firstjobapp/job/impl/jobServiceImpl.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/embarkx/firstjobapp/job/impl/jobServiceImpl.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/main/java/com/embarkx/firstjobapp/job/impl/jobServiceImpl.java</url>
+          <line>19</line>
+          <properties field="jobrepository" class="com.embarkx.firstjobapp.job.impl.jobServiceImpl" />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

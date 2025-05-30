@@ -6,7 +6,6 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
-// 3.26 min utube
 
 @RestController  // returns in json format
 @RequestMapping("/jobs")  // this is the base url
@@ -31,7 +30,7 @@ public class jobController {
         return new ResponseEntity<>("Job added success", HttpStatus.OK);
     }
 
-    @GetMapping("//{id}")
+    @GetMapping("/{id}")
     public ResponseEntity<Job> getJobById(@PathVariable Long id){
         Job job = jobservice.getJobById(id);
         if(job != null)
